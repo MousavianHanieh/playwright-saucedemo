@@ -4,7 +4,7 @@ Automated end-to-end test suite for [SauceDemo](https://www.saucedemo.com) built
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Playwright](https://playwright.dev/) - End-to-end testing framework
 - JavaScript (ES Modules)
@@ -12,7 +12,7 @@ Automated end-to-end test suite for [SauceDemo](https://www.saucedemo.com) built
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 playwright-saucedemo/
@@ -27,7 +27,7 @@ playwright-saucedemo/
 
 ---
 
-## ✅ Test Coverage
+## Test Coverage
 
 ### Login Tests (`login.spec.js`)
 | Test Case | Description |
@@ -44,7 +44,7 @@ playwright-saucedemo/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js v18 or higher
@@ -84,7 +84,7 @@ npx playwright show-report
 
 ---
 
-## 🌐 Cross-Browser Testing
+## Cross-Browser Testing
 
 Tests run across **3 browsers** by default:
 - Chromium (Chrome)
@@ -93,7 +93,7 @@ Tests run across **3 browsers** by default:
 
 ---
 
-## 📄 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 
 - **Page Object Model (POM):** Each page has its own class with locators and actions, making tests maintainable and reusable.
 - **beforeEach Hook:** Shared preconditions (navigation and login) are handled before each test.
